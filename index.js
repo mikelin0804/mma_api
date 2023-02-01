@@ -1,5 +1,5 @@
 import express from "express";
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 import * as cheerio from "cheerio";
 import fetch from "node-fetch";
 
