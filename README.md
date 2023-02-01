@@ -68,7 +68,7 @@ Response for `/ufcfighter`
     "strikeLand": "A string containing the strike landed in career."
     "strikeAttempt": "A string containing the strike attempt in career."
     "takedownLand": "A string containing the takedown land in career."
-    "takedownAttempt": "A string containing the takedown attempt in career."`
+    "takedownAttempt": "A string containing the takedown attempt in career."
 }   
 ```
 
