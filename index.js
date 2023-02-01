@@ -117,7 +117,7 @@ async function getUFCFighter(name) {
     const titleDefense = $(
       ".hero-profile__stat:nth-child(3) > .hero-profile__stat-numb"
     ).text();
-    const srikeLand = $(".stats-records.stats-records--two-column:first")
+    const strikeLand = $(".stats-records.stats-records--two-column:first")
       .find("dd.c-overlap__stats-value:first")
       .text();
     const strikeAttempt = $(".stats-records.stats-records--two-column:first")
@@ -144,7 +144,7 @@ async function getUFCFighter(name) {
       winStreak,
       winKnock,
       titleDefense,
-      srikeLand,
+      strikeLand,
       strikeAttempt,
       takedownLand,
       takedownAttempt,
